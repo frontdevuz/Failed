@@ -1,0 +1,13 @@
+.title {
+    display: flex;
+    justify-content: flex-start;
+
+    &__name {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 29.35px;
+        margin-bottom: 32px;
+        margin-top: 2.5rem;
+    }
+
+}

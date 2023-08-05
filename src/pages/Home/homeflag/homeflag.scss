@@ -1,0 +1,45 @@
+.flag {
+    margin-top: 2.5rem;
+
+    &__card__box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex: 2;
+    }
+    &__card {
+        position: relative;
+        cursor: pointer;
+        transition: all .2s linear;
+        width: 440px;
+
+        &:hover {
+            transform: scale(1.02);
+            
+        }
+    }
+
+    &__container-title {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translate(50% 50%);
+        display: flex;
+        justify-content: center;
+    }
+
+    &__title {
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        color: #FFF;
+    }
+
+
+    &__img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}

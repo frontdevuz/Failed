@@ -1,0 +1,249 @@
+.header {
+    min-height: 1024px;
+    background: url("../../../assets/images/svg/Education-img.svg")no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 32px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: .3s linear;
+
+    &__nav-container {
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 32px;
+        z-index: 999 !important;
+        padding: 0 40px;
+        transition: 0.5s linear;
+        -webkit-transition: 0.5s linear;
+        -moz-transition: 0.5s linear;
+        -ms-transition: 0.5s linear;
+        -o-transition: 0.5s linear;
+    }
+
+    &__navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1;
+        position: relative;
+    }
+
+    &__hero {
+        width: 100%;
+        margin-top: 135px;
+    }
+
+    &__navbar-logo {
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__navbar-title {
+        width: 86px;
+        height: 21px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+
+    &__form {
+        width: 170px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    &__form-login {
+        width: 48px;
+        position: relative;
+        height: 19px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        transition: .5s linear;
+
+        &:hover {
+            background: linear-gradient(to right, #F0F0F0, #FFFFFF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        &:before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0px;
+            height: 3px;
+            bottom: -1px;
+            background: #F0F0F0;
+            transition: all .3s;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+        }
+
+
+        &:hover::before {
+            width: 100%;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+    }
+
+    // /Tegilmasin iltimos/
+    &__form-register {
+        width: 102px;
+        height: 19px;
+        position: relative;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.02em;
+        color: #F0F0F0;
+
+        &:hover {
+            background: linear-gradient(to right, #F0F0F0, #FFFFFF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: #FFFFFF;
+        }
+
+        &:before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0px;
+            height: 3px;
+            bottom: -1px;
+            background: #F0F0F0;
+            transition: all .3s;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+            color: #FFFFFF;
+        }
+
+
+        &:hover::before {
+            width: 100%;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            color: #FFFFFF;
+        }
+    }
+
+    &__title {
+        width: 791px;
+        height: 94px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 47px;
+        color: #FFFFFF;
+        margin-bottom: 32px;
+
+    }
+
+    &__description {
+        width: 630px;
+        height: 84px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+    }
+
+    &__hero-select {
+        display: flex;
+        align-items: center;
+        margin-top: 28px;
+    }
+
+    &__select-list {
+        width: 157px;
+        height: 23px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 23px;
+        padding-left: 18px !important;
+        color: #FFFFFF;
+    }
+
+    &__btn {
+        margin-top: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 322px;
+        height: 50px;
+        background: #E5E6FF;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        color: #000D7F;
+        border-radius: 10px;
+        transition: all .4s linear !important;
+        margin-bottom: 3.5rem !important;
+
+
+        &:hover {
+            opacity: 0.8;
+            background: #000D7F !important;
+            color: white;
+        }
+
+        &:active {
+            opacity: 0.5;
+            transform: scale(1.02);
+        }
+    }
+
+    &__nav-scrolled {
+        backdrop-filter: blur(6px);
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 70px;
+        padding-top: 20px;
+        transition: .2s linear;
+
+        &::after {
+            content: "";
+            background: rgba(0, 13, 127, 0.50);
+            width: 100%;
+            height: 70px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 0;
+        }
+    }
+}
+
+
+/*Iltimos tegilmasin !*/

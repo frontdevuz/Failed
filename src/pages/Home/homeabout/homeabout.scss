@@ -1,0 +1,98 @@
+.aside {
+    &__title {
+        width: 68px;
+        margin-top: 53px;
+        margin-bottom: 32px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 29px;
+        color: #000000;
+    }
+    &__left-top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 72px;
+    }
+    &__left-bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    &__container {
+        display: flex;
+        flex-direction: column;
+    }
+    &__container-dom{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left-img {
+        width: 120px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #D1DCE0;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+    &__right-img {
+        width: 120px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #D1DCE0;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+    &__right-title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 53px;
+        color: #000D7F;
+    }
+
+    &__right-about {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 14px;
+    }
+
+    &__right-description {
+        width: 336px;
+        height: 33px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 33px;
+        color: #5C7C8A;
+    }
+
+    &__right-top {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        margin-bottom: 72px;
+    }
+
+    &__right-bottom {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+}

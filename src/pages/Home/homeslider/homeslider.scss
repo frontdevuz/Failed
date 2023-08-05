@@ -1,0 +1,87 @@
+.slider {
+    margin-top: 4rem;
+    &__slider{
+        display: flex;
+        justify-content: space-around;
+    }
+    &__myslider {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+    }
+    
+    &__card {
+        width: 550px;
+        height: 450px;
+        border-radius: 10px;
+        padding: 40px 20px;
+        background: #E2F1F8;
+    }
+
+    &__card-top {
+        display: flex;
+        align-items: center;
+    }
+
+    &__top-about {
+        margin-left: 20px;
+    }
+
+    &__card-name {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: #000;
+    }
+
+    &__card-job {
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        color: #000;
+
+        &:nth-child(2) {
+            margin: 0.7rem 0;
+        }
+    }
+
+    &__card-bottom {
+        margin-top: 1.5rem;
+    }
+
+    &__card-text {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px;
+        color: #000;
+    }
+}
+
+.swiper-pagination-clickable{
+    bottom: 0px !important;
+}
+.swiper-button-next{
+    color: #000;
+    font-size: 15px !important;
+    position: absolute;
+    right: 0;
+}
+.swiper-button-prev{
+    color: #000;
+    font-size: 15px !important;
+    position: absolute;
+    left: 0;
+}
+.swiper-pagination-bullet {
+    background: #000;
+}
+.swiper{
+    width: 100%;
+    max-width: 100%;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+}

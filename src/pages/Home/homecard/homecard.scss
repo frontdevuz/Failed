@@ -1,0 +1,14 @@
+.university {
+    margin-top: 71px;
+    &__title {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 29.35px;
+        margin-bottom: 32px;
+    }
+    &__container-card{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
